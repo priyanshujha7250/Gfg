@@ -13,7 +13,7 @@ class circle{
     }
 }
 
-public class areaOfCircle {
+public class q1areaOfCircle {
     public static void main(String[] args) {
         circle c = new circle();
         c.radius = 5;

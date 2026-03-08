@@ -12,7 +12,7 @@ class rectangle{
         return length == breadth;
     }
 }
-public class areaOfRectangle {
+public class q2areaOfRectangle {
     public static void main(String[] args) {
         rectangle r = new rectangle();
         r.length = 10;

@@ -30,7 +30,7 @@ class StudentTest{
         }
     }
 }
-public class student {
+public class q4student {
     public static void main(String[] args) {
         StudentTest s = new StudentTest();
         s.roll_no = 23;
