@@ -8,6 +8,9 @@ class rectangle{
     double perimeter(){
         return 2*(length+breadth);
     }
+    boolean square(){
+        return length == breadth;
+    }
 }
 public class areaOfRectangle {
     public static void main(String[] args) {
@@ -16,5 +19,6 @@ public class areaOfRectangle {
         r.breadth= 12;
         System.out.println("Area of the rectangle : " + r.area());
         System.out.println("Perimeter of rectangle : " + r.perimeter());
+        System.out.println("It is a square : " + r.square());
     }
 }
