@@ -15,7 +15,7 @@ class cylinder{
         return 2*Math.PI*radius;
     }
 }
-public class areaOfSphere {
+public class areaOfCylinder{
     public static void main(String[] args) {
         cylinder c = new cylinder();
         c.radius = 7;
