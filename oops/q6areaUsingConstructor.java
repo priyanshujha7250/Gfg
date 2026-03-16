@@ -1,18 +1,10 @@
 package Gfg.oops;
-class rectangle{
+class Rectangle{
     private double length;
     private double breadth;
-    public double getLength(){
-        return length;
-    }
-    public double getBreadth(){
-        return breadth;
-    }
-    public void setLength(double l){
-        length = l;
-    }
-    public void setBreadth(double b){
-        breadth = b;
+    Rectangle(){
+        length = 1.0;
+        breadth = 1.0;
     }
     double area(){
         return length*breadth;
@@ -24,15 +16,11 @@ class rectangle{
         return length == breadth;
     }
 }
-public class q5privatemethod {
+public class q6areaUsingConstructor {
     public static void main(String[] args) {
-        rectangle r = new rectangle();
-        r.setLength(2.5);
-        r.setBreadth(5.5);
+        Rectangle r = new Rectangle();
         System.out.println("Area of the rectangle : " + r.area());
         System.out.println("Perimeter of rectangle : " + r.perimeter());
         System.out.println("It is a square : " + r.square());
-        System.out.println(r.getLength());
-        System.out.println(r.getBreadth());
     }
 }
